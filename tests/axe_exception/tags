@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+APP_NAME	Makefile	/^APP_NAME = test$/;"	m
+DATA_SHIFT	src/test.xc	13;"	d	file:
+MAX_VECTOR_LENGTH	src/test.xc	15;"	d	file:
+SEED	src/test.xc	10;"	d	file:
+TARGET	Makefile	/^TARGET = XCORE-200-EXPLORER$/;"	m
+TEST_SEED	Makefile	/^TEST_SEED = $(shell .\/get_seed)$/;"	m
+USED_MODULES	Makefile	/^USED_MODULES = lib_dsp(>=4.0.0)$/;"	m
+VERBOSE	Makefile	/^VERBOSE = 0$/;"	m
+XCC_FLAGS	Makefile	/^XCC_FLAGS = -O2 -g -report -DDEBUG_PRINT_ENABLE=1 -DSEED=$(TEST_SEED)$/;"	m
+XCORE_ARM_PROJECT	Makefile	/^XCORE_ARM_PROJECT = 0$/;"	m
+XMOS_MAKE_PATH	Makefile	/^XMOS_MAKE_PATH ?= ..\/..$/;"	m
+copy_vector	src/test.xc	/^void copy_vector(int32_t src[], int32_t dst[], unsigned length) {$/;"	f
+generate_vector	src/test.xc	/^void generate_vector(int32_t vec[], unsigned length, unsigned &seed) {$/;"	f
+main	src/test.xc	/^unsafe int main(){$/;"	f
+print_vector	src/test.xc	/^void print_vector(int32_t vec[], unsigned length) {$/;"	f
+random	src/test.xc	/^int random(unsigned &x){$/;"	f
+test_vector	src/test.xc	/^void test_vector(){$/;"	f
